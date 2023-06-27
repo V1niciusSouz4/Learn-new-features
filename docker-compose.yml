@@ -3,7 +3,7 @@ version: '3.8'
 services:
   postgres-database:
     image: postgres
-    container_name: 'postgres-api-prisma'
+    container_name: 'pokeAPI'
     ports:
       - "5432:5432"
     environment:
@@ -13,7 +13,7 @@ services:
 
   pgadmin:
     image: dpage/pgadmin4
-    container_name: 'pgadmin-api-prisma'
+    container_name: 'poke_api'
     ports:
       - "8080:80"
     environment:

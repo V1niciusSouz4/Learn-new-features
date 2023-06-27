@@ -14,6 +14,6 @@ app.use(json());
 app.use(urlencoded({ extended: true }));
 // app.use();
 
-app.use('/api/v1', routes);
+app.use('/api', routes);
 
 export default app;
