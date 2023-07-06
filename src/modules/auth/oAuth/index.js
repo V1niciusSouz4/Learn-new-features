@@ -1,1 +1,1 @@
-export * from './github.service.js';
+export * from './github/github.service.js';

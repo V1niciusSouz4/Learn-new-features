@@ -4,6 +4,7 @@ import {
   findAllUsers,
   createUser,
   deleteUser,
+  updateUser,
 } from './users.service.js';
 
 export const profile = async (req, res) => {
@@ -32,21 +33,29 @@ export const findAll = async (req, res) => {
 };
 
 export const create = async (req, res) => {
-  const { nickname, email, password } = req.body;
+  const user = req.body;
 
-  const userEmail = await findUserByEmail(email);
+  const userEmail = await findUserByEmail(user.email);
   if (userEmail)
     return res.status(400).json({ message: 'User already exists!' });
 
-  await createUser({ nickname, email, password });
+  await createUser(user);
 
   return res.status(200).json({ message: 'User created success!' });
 };
 
 export const deleted = async (req, res) => {
-  const id = req.params.id;
+  const { id } = req.params;
 
   await deleteUser(id);
 
   return res.status(200).json({ message: 'User deleted' });
+};
+
+export const update = async (req, res) => {
+  const id = req.params.id;
+  const getUser = req.body;
+  await updateUser(id, getUser);
+
+  return res.status(200).json({ message: 'User updated' });
 };

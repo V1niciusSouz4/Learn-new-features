@@ -1,5 +1,6 @@
 import { hashSync, compare } from 'bcrypt';
 import { db } from '../../config/index.js';
+import { throwError } from '../../utils/customError.js';
 
 export const findUserByEmail = email => {
   try {
@@ -22,14 +23,11 @@ export const createUserByEmailOrGit = user => {
   }
 };
 
-export const createUser = async ({ nickname, email, password }) => {
+export const createUser = async user => {
   try {
+    user.password = hashSync(user.password, 12);
     const userCreate = await db.user.create({
-      data: {
-        nickname,
-        email,
-        password,
-      },
+      data: user,
     });
 
     return userCreate;
@@ -52,6 +50,42 @@ export const deleteUser = async id => {
   }
 };
 
+export const updateUser = async (id, getUser) => {
+  try {
+    const { email, nickname, photo } = getUser;
+    const userUpdated = await db.user.update({
+      where: {
+        id,
+      },
+      data: {
+        email,
+        nickname,
+        photo,
+      },
+    });
+    return userUpdated;
+  } catch (error) {
+    throw new Error(error);
+  }
+};
+
+export const updateUserFile = async imageName => {
+  try {
+    return db.products.updateMany({
+      where: {
+        photo: {
+          contains: imageName,
+        },
+      },
+      data: {
+        photo: '',
+      },
+    });
+  } catch (error) {
+    throwError('Error update product');
+  }
+};
+
 export const findUserById = id => {
   try {
     return db.user.findUnique({
@@ -59,6 +93,7 @@ export const findUserById = id => {
         id: true,
         email: true,
         role: true,
+        photo: true,
         nickname: true,
         password: false,
         verificationCode: false,
@@ -87,6 +122,7 @@ export const findAllUsers = async ({ offset, listPerPage, query, order }) => {
         id: true,
         email: true,
         nickname: true,
+        photo: true,
       },
       skip: offset,
       take: listPerPage,
@@ -103,6 +139,7 @@ export const comparePassword = async ({ email, password }) => {
     if (!existingUser) {
       throw new Error('User not found');
     }
+
     const validPassword = await compare(password, existingUser.password);
 
     if (!validPassword) {

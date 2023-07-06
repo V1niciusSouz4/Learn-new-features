@@ -1,0 +1,182 @@
+::1 - - [05/Jul/2023:18:40:10 +0000] "POST /api/users/create HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@homl.com","password":"pokemons"}
+::1 - - [05/Jul/2023:18:40:18 +0000] "POST /api/users/create HTTP/1.1" 200 35 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@home.com","password":"pokemons"}
+::1 - - [05/Jul/2023:18:59:17 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 406 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:18:59:53 +0000] "PUT /api/users/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 500 3222 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:00:34 +0000] "PUT /api/users/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 500 3139 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:00:40 +0000] "PUT /api/users/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 500 2331 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:00:54 +0000] "PUT /api/users/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 500 2331 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:02:12 +0000] "PUT /api/users/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 200 26 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:02:16 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 406 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:02:28 +0000] "GET /api/users?page=2&limit=5 HTTP/1.1" 200 29 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:02:34 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 406 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:02:59 +0000] "PUT /api/users/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 200 26 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:04:59 +0000] "PUT /api/users/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 200 26 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:05:04 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 410 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:25:00 +0000] "POST /api/users/upload HTTP/1.1" 404 1260 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:25:52 +0000] "POST /api/files/upload HTTP/1.1" 200 385 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:33:35 +0000] "POST /api/files/upload HTTP/1.1" 200 385 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:34:45 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 410 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:34:58 +0000] "POST /api/files/image/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 500 1045 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:35:42 +0000] "POST /api/files/image/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 500 1045 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:35:50 +0000] "POST /api/users/create HTTP/1.1" 200 35 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@home.com","password":"pokemons"}
+::1 - - [05/Jul/2023:19:35:53 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 503 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:36:07 +0000] "GET /api/users?page=2&limit=5 HTTP/1.1" 200 29 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:36:11 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 503 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:37:49 +0000] "POST /api/users/create HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@home.com","password":"pokemons"}
+::1 - - [05/Jul/2023:19:37:58 +0000] "POST /api/users/create HTTP/1.1" 200 35 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@homer.com","password":"pokemons"}
+::1 - - [05/Jul/2023:19:38:01 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 215 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:39:17 +0000] "POST /api/users/create HTTP/1.1" 200 35 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@homer.com","password":"pokemons"}
+::1 - - [05/Jul/2023:19:39:20 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 122 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:39:30 +0000] "POST /api/files/image/01fab4f2-0b2e-4e09-82df-1d6dfc17a020 HTTP/1.1" 500 1045 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:40:22 +0000] "POST /api/users/create HTTP/1.1" 200 35 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@homer.com","password":"pokemons"}
+::1 - - [05/Jul/2023:19:40:26 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 122 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:40:36 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 500 1045 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:41:28 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:41:44 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:42:04 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:42:44 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:46:24 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:46:57 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:47:48 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:47:58 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:48:00 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:48:43 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:49:11 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 500 1091 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:51:36 +0000] "PUT /api/users/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 500 673 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:52:00 +0000] "PUT /api/users/402c2cf1-7889-4178-b65b-83e8e831c3cc HTTP/1.1" 500 673 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:52:08 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 122 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:52:17 +0000] "PUT /api/users/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 200 26 "-" "PostmanRuntime/7.32.3" {"email":"Alex@hoemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:52:29 +0000] "PUT /api/users/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 200 26 "-" "PostmanRuntime/7.32.3" {"email":"Alex@hoemart.com","nickname":"AlexDurex"}
+::1 - - [05/Jul/2023:19:52:54 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 500 1081 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:53:08 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 200 169 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:53:20 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 124 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:55:58 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 184 "-" "PostmanRuntime/7.32.3" -
+::1 - - [05/Jul/2023:19:56:57 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 200 122 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:57:45 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 37 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:57:48 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 37 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:57:55 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 37 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:58:03 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 37 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:58:05 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 400 37 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:58:34 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 200 169 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [05/Jul/2023:19:59:08 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 200 169 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [06/Jul/2023:11:39:26 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 500 1197 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:11:39:33 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 500 1197 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:11:40:37 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 184 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:11:41:00 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 200 209 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [06/Jul/2023:11:42:56 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 200 206 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [06/Jul/2023:11:42:58 +0000] "GET /api/files/view/b9e48347172aeed7511ddc630d20818f1688643776236.jpg HTTP/1.1" 200 110461 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" -
+::1 - - [06/Jul/2023:11:42:59 +0000] "GET /favicon.ico HTTP/1.1" 404 1276 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" -
+::1 - - [06/Jul/2023:11:43:35 +0000] "POST /api/users/create HTTP/1.1" 200 35 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:11:43:39 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 328 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:11:43:54 +0000] "POST /api/files/image/e8f24c35-dea5-4913-b90f-4abf1df008ff HTTP/1.1" 500 1381 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [06/Jul/2023:11:47:04 +0000] "PUT /api/users/945cf93b-43d7-49e2-a48f-f675722b16a1 HTTP/1.1" 500 1376 "-" "PostmanRuntime/7.32.3" {"email":"Alex@hoeemart.com","nickname":"AlexDurex"}
+::1 - - [06/Jul/2023:11:47:54 +0000] "PUT /api/users/945cf93b-43d7-49e2-a48f-f675722b16a1 HTTP/1.1" 200 26 "-" "PostmanRuntime/7.32.3" {"email":"Alex@hoeemart.com","nickname":"AlexDurex"}
+::1 - - [06/Jul/2023:11:47:59 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 331 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:12:23:02 +0000] "POST /api/send-email HTTP/1.1" 404 1274 "-" "PostmanRuntime/7.32.3" {"name":"Vinícius","to":"viniciussouzasantos2004@gmail.com","subject":"assuntos assu"}
+::1 - - [06/Jul/2023:12:25:11 +0000] "POST /api/notifications/send-email HTTP/1.1" 200 89 "-" "PostmanRuntime/7.32.3" {"name":"Vinícius","to":"viniciussouzasantos2004@gmail.com","subject":"assuntos assu"}
+::1 - - [06/Jul/2023:12:33:13 +0000] "POST /api/notifications/send-email HTTP/1.1" 200 89 "-" "PostmanRuntime/7.32.3" {"name":"Vinícius","to":"viniciussouzasantos2004@gmail.com","subject":"Liberamo sua conta, parcero"}
+::1 - - [06/Jul/2023:12:35:46 +0000] "POST /api/notifications/send-email HTTP/1.1" 200 89 "-" "PostmanRuntime/7.32.3" {"name":"Vinícius","to":"viniciussouzasantos2004@gmail.com","subject":"Liberamo sua conta, parcero"}
+::1 - - [06/Jul/2023:12:45:51 +0000] "POST /api/notifications/send-email HTTP/1.1" 200 89 "-" "PostmanRuntime/7.32.3" {"name":"Vinícius","to":"viniciussouzasantos2004@gmail.com","subject":"Liberamo sua conta, parcero"}
+::1 - - [06/Jul/2023:12:47:28 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 401 27 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:12:53:28 +0000] "POST /api/auth/register HTTP/1.1" 400 151 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:12:54:18 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:12:54:45 +0000] "POST /api/users/create HTTP/1.1" 200 35 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:12:55:02 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:12:59:26 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:12:59:30 +0000] "POST /api/users/create HTTP/1.1" 400 34 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:12:59:41 +0000] "POST /api/users/create HTTP/1.1" 500 2789 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@hometr.com","password":"$2b$12$60CqjcQVBYLdkoGhTONaTeWPQfN1kONxeIe0ViF7/SteqDOUFvyz6"}
+::1 - - [06/Jul/2023:12:59:59 +0000] "POST /api/users/create HTTP/1.1" 500 2789 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@hometr.com","password":"$2b$12$PvIYMtOe5spSBrhwP7B6GOFIWFQKpQZtM1W7ZOI0kNNNG35VOJjG6"}
+::1 - - [06/Jul/2023:13:01:38 +0000] "POST /api/users/create HTTP/1.1" 200 35 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@hometr.com","password":"$2b$12$/TTCVSd61L5y4k3jU.uLz.xLzRtVfqgK.OSw1dMU1eC3HEe2cTq1u"}
+::1 - - [06/Jul/2023:13:15:29 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:15:38 +0000] "GET ///C:/Users/Vinicius%20Souza/Documents/api_aelx/src/modules/auth/auth.service.js:97:11)/n HTTP/1.1" 404 1430 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" -
+::1 - - [06/Jul/2023:13:16:32 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:17:20 +0000] "POST /api/auth/login HTTP/1.1" 500 412 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:18:51 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:19:27 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:19:45 +0000] "POST /api/auth/login HTTP/1.1" 500 333 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:20:06 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:20:28 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:20:48 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:21:43 +0000] "POST /api/auth/login HTTP/1.1" 500 329 "-" "PostmanRuntime/7.32.3" {"email":"Alex@homer.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:22:21 +0000] "POST /api/users/create HTTP/1.1" 200 35 "-" "PostmanRuntime/7.32.3" {"nickname":"AlexDurex","email":"Alex@hometr.com","password":"$2b$12$FkJ/psCXjtQjE.leRIrje.a8vgRDrJmwHGOWNZVmFYuoFG8Fg0dUC"}
+::1 - - [06/Jul/2023:13:22:31 +0000] "POST /api/auth/login HTTP/1.1" 200 483 "-" "PostmanRuntime/7.32.3" {"email":"Alex@hometr.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:40:16 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 401 27 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:40:23 +0000] "POST /api/auth/login HTTP/1.1" 200 483 "-" "PostmanRuntime/7.32.3" {"email":"Alex@hometr.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:41:31 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 401 27 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:42:50 +0000] "POST /api/auth/login HTTP/1.1" 200 483 "-" "PostmanRuntime/7.32.3" {"email":"Alex@hometr.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:43:06 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 401 1297 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:43:27 +0000] "POST /api/auth/login HTTP/1.1" 200 483 "-" "PostmanRuntime/7.32.3" {"email":"Alex@hometr.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:43:35 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 401 1297 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:43:56 +0000] "POST /api/auth/login HTTP/1.1" 200 483 "-" "PostmanRuntime/7.32.3" {"email":"Alex@hometr.com","password":"pokemons"}
+::1 - - [06/Jul/2023:13:44:01 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 401 1297 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:44:36 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 401 1297 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:44:52 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 401 1297 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:44:54 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 401 1297 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:45:35 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 401 1297 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:46:01 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 136 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:48:10 +0000] "GET /api/users?page=1&limit=5 HTTP/1.1" 200 136 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:48:19 +0000] "DELETE /api/users/7ca43f62-ead4-44d5-9446-3284939462d8 HTTP/1.1" 401 27 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:48:28 +0000] "DELETE /api/users/7ca43f62-ead4-44d5-9446-3284939462d8 HTTP/1.1" 401 28 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:52:12 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:54:12 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:55:19 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:55:21 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:55:40 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:56:05 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:13:56:16 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:00:47 +0000] "GET /api/auth/github/callback?=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:01:31 +0000] "GET /api/auth/github/callback?requestToken=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:01:59 +0000] "GET /api/auth/github/callback?requestToken=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:02:06 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:02:23 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:02:59 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:03:05 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:03:11 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:04:06 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:04:12 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:04:17 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:04:51 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:05:10 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:05:51 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:06:04 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:06:20 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:06:46 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:07:03 +0000] "POST /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 404 1508 "-" "PostmanRuntime/7.32.3" {}
+::1 - - [06/Jul/2023:14:07:10 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:15:14 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:15:20 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:15:36 +0000] "GET /api/auth/github/callback HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:15:51 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:16:08 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:16:47 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:17:09 +0000] "GET /api/auth/github/callback?requestToken=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:17:18 +0000] "GET /api/auth/github/callback?code=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:17:33 +0000] "GET /api/auth/github/callback?code=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:18:15 +0000] "GET /api/auth/github/callback?code=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:18:26 +0000] "GET /api/auth/github/callback?code=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:20:05 +0000] "GET /api/auth/github/callback?code=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:20:16 +0000] "GET /api/auth/github/callback?code=11A5MKUTI0j6dOiRKHInnt_AFmenyrAcWhci37DppcD7QmEAdPKXVQJ5eGJZSos83HUPCFAQABlhMIiqrl HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:20:26 +0000] "GET /api/auth/github/callback?code=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:21:18 +0000] "GET /api/auth/github/callback?code=Bearer%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:24:45 +0000] "GET /api/auth/github/callback?code=Bearers%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:24:54 +0000] "GET /api/auth/github/callback?Bearers=Bearers%20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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:25:44 +0000] "GET /api/auth/github/callback?Bearers=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:25:45 +0000] "GET /api/auth/github/callback?Bearers=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:27:08 +0000] "GET /api/auth/github/callback?code=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:29:16 +0000] "GET /api/auth/github/callback?code=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:14:35:47 +0000] "GET /api/auth/github/callback?code=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:16:20:07 +0000] "GET /api/auth/github/callback?code=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 HTTP/1.1" 500 461 "-" "PostmanRuntime/7.32.3" -
+::1 - - [06/Jul/2023:17:00:41 +0000] "GET /api/auth/github/callback?code=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 HTTP/1.1" 500 461 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" -
+::1 - - [06/Jul/2023:17:01:01 +0000] "GET /api/auth/github/callback?code=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 HTTP/1.1" 500 461 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" -
+::1 - - [06/Jul/2023:17:43:08 +0000] "POST /api/notifications/send-sms HTTP/1.1" 500 391 "-" "PostmanRuntime/7.32.3" {"message":"oi, Alê","phone":"+55119962619649"}
+::1 - - [06/Jul/2023:17:43:17 +0000] "POST /api/notifications/send-sms HTTP/1.1" 500 391 "-" "PostmanRuntime/7.32.3" {"message":"oi, Alê","phone":"+5511951653390"}
+::1 - - [06/Jul/2023:17:45:01 +0000] "POST /api/notifications/send-sms HTTP/1.1" 500 391 "-" "PostmanRuntime/7.32.3" {"message":"oi, Alê","phone":"+5511951653390"}
+::1 - - [06/Jul/2023:17:45:33 +0000] "POST /api/notifications/send-sms HTTP/1.1" 500 391 "-" "PostmanRuntime/7.32.3" {"message":"oi, Alê","phone":"+5511951653390"}
+::1 - - [06/Jul/2023:17:45:36 +0000] "POST /api/notifications/send-sms HTTP/1.1" 500 391 "-" "PostmanRuntime/7.32.3" {"message":"oi, Alê","phone":"+5511951653390"}
+::1 - - [06/Jul/2023:17:45:37 +0000] "POST /api/notifications/send-sms HTTP/1.1" 500 391 "-" "PostmanRuntime/7.32.3" {"message":"oi, Alê","phone":"+5511951653390"}
+::1 - - [06/Jul/2023:17:46:01 +0000] "POST /api/notifications/send-sms HTTP/1.1" 500 391 "-" "PostmanRuntime/7.32.3" {"message":"oi, Alê","phone":"+5511951653390"}
+::1 - - [06/Jul/2023:17:46:53 +0000] "POST /api/notifications/send-sms HTTP/1.1" 201 787 "-" "PostmanRuntime/7.32.3" {"message":"oi, Alê","phone":"+5511951653390"}
+::1 - - [06/Jul/2023:17:47:00 +0000] "POST /api/notifications/send-sms HTTP/1.1" 500 391 "-" "PostmanRuntime/7.32.3" {"message":"oi, Alê","phone":"+55119962619649"}
+::1 - - [06/Jul/2023:18:15:44 +0000] "POST /api/notifications/send-sms HTTP/1.1" 500 391 "-" "PostmanRuntime/7.32.3" {"message":"Tonta","phone":"+55119962619649"}
+::1 - - [06/Jul/2023:18:15:55 +0000] "POST /api/notifications/send-sms HTTP/1.1" 201 784 "-" "PostmanRuntime/7.32.3" {"message":"Tonta","phone":"+5511951653390"}
+::1 - - [06/Jul/2023:18:16:09 +0000] "POST /api/notifications/send-sms HTTP/1.1" 201 784 "-" "PostmanRuntime/7.32.3" {"message":"Tonta","phone":"+5511951653390"}

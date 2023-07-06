@@ -1,4 +1,4 @@
-import { throwError } from '../utils';
+import { throwError } from '../utils/index.js';
 
 export const handlePagination = (req, res, next) => {
   const { page, limit } = req.query;

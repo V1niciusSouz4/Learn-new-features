@@ -1,4 +1,4 @@
-import { findUserById } from '../modules/users¹users.service.js';
+import { findUserById } from '../modules/users/users.service.js';
 
 export const hasRole = roles => async (req, res, next) => {
   try {

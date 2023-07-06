@@ -10,7 +10,7 @@ export const isAuthenticated = (req, res, next) => {
   }
 
   try {
-    const [bearer, token] = authorization.split('');
+    const [bearer, token] = authorization.split(' ');
 
     if (bearer !== 'Bearer') {
       res.status(401);
@@ -18,7 +18,6 @@ export const isAuthenticated = (req, res, next) => {
     }
 
     const payload = jwt.verify(token, process.env.JWT_ACCESS_SECRET);
-
     req.payload = payload;
     return next();
   } catch (error) {

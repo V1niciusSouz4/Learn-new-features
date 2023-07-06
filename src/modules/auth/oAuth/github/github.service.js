@@ -18,7 +18,7 @@ export const githubCallback = async ({ requestToken }) => {
         accept: 'application/json',
       },
     });
-
+    console.log(githubApiResponse.data);
     return githubApiResponse.data;
   } catch (error) {
     throw new Error(error);

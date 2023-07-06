@@ -3,7 +3,7 @@ import jwt from 'jsonwebtoken';
 
 import { getGithubUser, githubCallback } from './oAuth/index.js';
 import { db } from '../../config/index.js';
-import { hashToken, generateTokens } from '../../utils/hashToken.js';
+import { hashToken, generateTokens } from '../../utils/index.js';
 
 import {
   findUserByEmail,

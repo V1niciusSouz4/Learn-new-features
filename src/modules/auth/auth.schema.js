@@ -50,7 +50,7 @@ export const refreshTokenSchema = object({
   }),
 });
 
-export const rovokeTokenSchema = object({
+export const revokeTokenSchema = object({
   body: object({
     userId: string({
       required_error: 'user id is required',
