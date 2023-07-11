@@ -8,7 +8,7 @@
     "dev": "nodemon --exec sucrase-node ./src/index.js",
     "migrate:create": "npx prisma migrate dev --name",
     "lint": "eslint \"{src,public,prisma}/**/*.js\" --fix",
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "",
